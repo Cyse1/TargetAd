@@ -4,215 +4,279 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Target Email</title>
-
+  <title>Target E-Mail</title>
   <style>
-    @media(max-width: 550px) {
+    @media(max-width:550px) {
       .container {
         width: 90%;
       }
 
-      .hero-text {
-        margin-top: -75px !important;
-      }
-
-      .grid {
-        width: 100%;
-      }
-
-      .grid-right {
-        width: 100% !important;
-      }
-
-      .grid-px{
-        padding-right: 0 !important;
-      }
-
-
-    }
-
-    @media(max-width: 500px) {
-
-      .blue-table {
-        display: block !important;
-        width: 100% !important;
-        margin-bottom: 10px;
-
-      }
-
-      .animal-section {
-        padding-top: 0 !important;
-      }
-
-
-    }
-
-    @media(max-width: 470px) {
-
-      .header-nav td {
-        display: block;
+      /* Hero Section */
+      .hero-deal {
+        max-width: 100%;
       }
 
       .small-text {
-        font-size: 14px !important;
+        font-size: 15px !important;
       }
 
-      .hero-text {
-        margin-top: 0px !important;
+      .hero-img {
+        background-size: 100% !important;
+        background-position: center center;
       }
 
-      .animal-img-container {
+
+
+      /* Blue Rows */
+
+      .left-col,
+      .right-col {
         width: 100%;
-        margin: 0 auto;
+
       }
 
-      .animal-text-section {
-        width: 100%;
-        text-align: center !important;
+      .left-col h2,
+      .right-col h2 {
+        padding-top: 10% !important;
       }
 
-      .animal-text {
+      .left-col p,
+      .right-col p {
+        width: 80%;
+      }
+
+      /* Stuffed Animal Section */
+      .animalImg {
+        background-size: 100% !important;
+        background-position: center center;
+      }
+    }
+
+
+
+    @media(max-width:501px) {
+      .container {
         width: 90%;
-        padding-right: 0 !important;
       }
 
-      /* Floor cleaner */
+      /* Navbar */
+      .navbar a {
+        display: block;
+        margin: 0 5px;
+      }
 
-      .floor-img-container {
+      /* Hero Section */
+      .hero-deal {
+        max-width: 100%;
+      }
+
+      .small-text {
+        font-size: 15px !important;
+      }
+
+      .hero-img {
+        background-size: 100% !important;
+        background-position: center center;
+      }
+
+      /* Blue Rows */
+
+      .left-col,
+      .right-col {
         width: 100%;
-        margin: 0 auto;
+
       }
 
-      .floor-text-section {
-        width: 100%;
-        text-align: center !important;
+      .left-col h2,
+      .right-col h2 {
+        padding-top: 10% !important;
       }
 
-      /* Books and movies */
-
-      .books-img-container {
-        width: 100%;
-        margin: 0 auto;
+      .left-col p,
+      .right-col p {
+        width: 80%;
       }
 
-      .books-text-section {
-        width: 100%;
-        text-align: center !important;
+      /* Stuffed Animal Section */
+      .animalImg {
+        background-size: 100% !important;
+        background-position: center center;
       }
 
-      .text-content {
-        padding: 0px !important;
+      /* floor care */
+      .floor-care-img {
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position: center center;
       }
 
-      /* Tote and movies */
-
-      .tote-img-container {
-        width: 100%;
-        margin: 0 auto;
+      /* Books Images */
+      .books h2 {
+        font-size: 30px !important;
       }
 
-      .tote-img-container td {
-        padding-top: 0 !important;
+      .bookImg {
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position: center left;
       }
 
-      .tote-text-section {
-        width: 100%;
-        text-align: center !important;
+      /* Plastic Container */
+
+      .plastic-bin {
+        background-size: 100% !important;
+        background-position: center center;
       }
 
+      /* Footer Nav */
       .footer-nav {
+        display: inline !important;
+        padding: 5px;
+      }
+
+      /* Sub/Unsub Group */
+      .grid {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media(max-width:380px) {
+      .container {
+        width: 90%;
+      }
+
+      .small-text {
+        font-size: 13px !important;
+      }
+
+      .smaller-text {
+        display: block !important;
+        width: 100% !important;
+        width: 40% !important;
+      }
+
+      /* Navbar */
+
+      .link {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        padding: 3px 0 !important;
+        text-align: center !important;
+      }
+
+      .link a {
+        display: block !important;
         width: 100%;
       }
+
+      /* Stuffed Animal Section */
+      .animalImg {
+        background-size: 100% !important;
+        background-position: 75px top;
+      }
+
+      .animal-table {
+        width: 100%;
+        padding-top: 150px;
+      }
+
+
 
 
 
     }
   </style>
 
-
 </head>
 
-<body bgcolor="black">
+<body bgcolor="black" style="margin:0">
+  <!-- Start of Email -->
   <table width="100%" cellspacing="0" cellpadding="0" border="0">
     <tr>
-      <td>
-        <!-- Start Email Container -->
-        <table class="container" width="600" align="center" cellspacing="0" cellpadding="0">
-          <tr>
-            <!-- Target Logo Header -->
-            <td align="center">
-              <a href="https://www.target.com" target="_blank"><img
-                  src="https://www.stevenme.com/email-images/TargetAd/targetLogo.png" alt="Target Logo"></a>
-            </td>
-            <!-- End Target Logo Header -->
-          </tr>
+      <td align="center">
+        <!-- Email Container -->
+        <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
           <tr>
             <td>
-              <!-- Header Nav -->
-              <table class="header-nav" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f7f7f7">
+              <!-- Start of Target Header Logo /1st row -->
+              <table class="header-logo" align="center" width="100%" cellspacing="0" cellpadding="0" border="0"
+                bgcolor="black" style="margin: 5px 0;">
                 <tr>
-                  <td align="center" style="font-family: Arial, Helvetica, sans-serif; padding: 15px;">
-                    <a class="small-text" href="https://www.target.com" target="_blank"
+                  <td align="center" style="background-color: black;">
+                    <a href="https://www.target.com" target="_blank"><img
+                        src="https://www.stevenme.com/email-images/TargetAd/targetLogo.png" alt="Target Logo"></a>
+                  </td>
+                </tr>
+              </table>
+              <!-- End of Target Header Logo / 1st row-->
+            </td>
+          </tr>
+          <!-- Start of NavBar / 2nd row-->
+          <tr>
+            <td>
+              <table class="navbar" width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
+                bgcolor="#f7f7f7"
+                style="font-family: Arial, Helvetica, sans-serif; padding: 13px 120px; margin-bottom: 10px;">
+                <tr>
+                  <td class="link" align="center" style="font-family: Arial, Helvetica, sans-serif;">
+                    <a href="https://www.target.com" target="_blank"
                       style="text-decoration: none; font-size: 15px; font-weight:100; color: #333333;">Weekly Ad</a>
                   </td>
-                  <td align="center" style="font-family: Arial, Helvetica, sans-serif; padding: 15px;">
-                    <a class="small-text" href="https://www.target.com" target="_blank"
+                  <td class="link" align="center">
+                    <a href="https://www.target.com" target="_blank"
                       style="text-decoration: none; font-size: 15px; font-weight:100; color: #333333;">Top Deals</a>
                   </td>
-                  <td align="center" style="font-family: Arial, Helvetica, sans-serif; padding: 15px;">
-                    <a class="small-text" href="https://www.target.com" target="_blank"
+                  <td class="link" align="center">
+                    <a href="https://www.target.com" target="_blank"
                       style="text-decoration: none; font-size: 15px; font-weight:100; color: #333333;">New Arrivals</a>
                   </td>
                 </tr>
               </table>
-              <!-- End Header Nav -->
             </td>
           </tr>
-          <!-- Start Hero Section -->
+          <!-- End of Navbar / 2nd row -->
+          <!-- Start of Hero / 3rd Row -->
           <tr>
-            <td style="padding: 10px 0;">
-              <table class="hero-deal" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102">
+            <td>
+              <table class="hero-deal" width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
+                bgcolor="#CB0D00" style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px;">
                 <tr>
-                  <td>
-                    <img src="https://www.stevenme.com/email-images/TargetAd/hero.jpg" alt=""
-                      style="width: 100%; height: auto;">
-                  </td>
-                </tr>
-                <tr>
-                  <td align="center">
-                    <p class="small-text hero-text"
-                      style="display: block; width: 85%; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; font-weight:100; color: white; padding-bottom: 20px; margin-top: -100px;">
-                      <b>Get todays deals</b> before they're gone & scorenew deals daily during
-                      <b>Target Circle Week.</b> Today Only.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td align="center">
+                  <td class="hero-img" align="center"
+                    style="background-image: url('https://www.stevenme.com/email-images/TargetAd/hero.jpg');background-size: 600px 200px; background-repeat: no-repeat;">
                     <a class="small-text" href="https://www.target.com" target="_blank"
-                      style=" display: inline-block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px ; color: white;width: 30%; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">Explore
+                      style="display: block; width: 85%; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; font-weight:100; color: white; padding-bottom: 20px;">
+                      <br><br><br><br><br><b>Get todays deals</b> before they're gone & scorenew deals daily during
+                      <b>Target Circle Week.</b> Today Only. </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="bottom">
+                    <a class="small-text smaller-text" href="https://www.target.com" target="_blank"
+                      style="display: block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px ; color: white;width: 30%; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">Explore
                       the Deals</a>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
-          <!-- End Hero Section -->
-
-          <!-- Start Blue Section / 2 column -->
+          <!-- End of Hero / 3rd Row -->
+          <!-- Start of 2column Section / 4th row -->
           <tr>
             <td>
-              <table class="blue-table left-col" width="49%" height="180" align="left" cellspacing="0" cellpadding="0"
-                bgcolor="#9FEFEF">
+              <!-- Left side of column -->
+              <table class="left-col" width="49.3%" align="left" bgcolor="#9FEFEF" cellspacing="0" cellpadding="0"
+                height="180" style="margin-bottom: 10px;">
                 <tr>
-                  <td>
+                  <td align="left" style="width: 154px; height: 145px;">
                     <a href="https://www.target.com" target="_blank"><img
-                        src="https://www.stevenme.com/email-images/TargetAd/reef.jpg" alt="Target Reef"
-                        style="width: 100%;"></a>
+                        src="https://www.stevenme.com/email-images/TargetAd/reef.jpg" alt=""
+                        style="width: 154px; height: 145px;"></a>
                   </td>
-                  <td align="center" style="padding: 0 5px;">
+                  <td align="center" valign="top" style="font-family: Arial, Helvetica, sans-serif; padding: 0 5px;">
                     <h2
-                      style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 0; padding-bottom: 5px; color: #AC0900; font-size: 2rem;">
+                      style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 0; padding-bottom: 5px; color: #AC0900; font-size: 27px;">
                       25% off</h2>
                     <p class="small-text"
                       style="font-family: Arial, Helvetica, sans-serif; margin-top: 0; font-size: 16px;">
@@ -221,17 +285,19 @@
                   </td>
                 </tr>
               </table>
-              <table class="blue-table right-col" width="49%" height="180" align="right" cellspacing="0" cellpadding="0"
-                bgcolor="#9FEFEF">
+              <!-- End of Left side Column -->
+              <!-- Right Side of Column -->
+              <table class="right-col" bgcolor="#9FEFEF" width="49.3%" align="right" cellspacing="0" cellpadding="0"
+                height="180" style="margin-bottom:10px">
                 <tr>
-                  <td>
+                  <td align="left" style="width: 154px; height: 145px;">
                     <a href="https://www.target.com" target="_blank"><img
-                        src="https://www.stevenme.com/email-images/TargetAd/crockpot.jpg" alt="crockpot"
-                        style="width: 100%;"></a>
+                        src="https://www.stevenme.com/email-images/TargetAd/crockpot.jpg" alt=""
+                        style="width: 154px; height: 145px;"></a>
                   </td>
-                  <td align="center" style="padding: 7px 5px">
+                  <td align="center" valign="top" style="font-family: Arial, Helvetica, sans-serif; padding: 0 5px;">
                     <h2
-                      style="font-family: Arial, Helvetica, sans-serif; margin:10px 0 0; padding-bottom: 5px; color: #AC0900; font-size: 2rem;">
+                      style="font-family: Arial, Helvetica, sans-serif; margin:10px 0 0; padding-bottom: 5px; color: #AC0900; font-size: 27px;">
                       Save $50</h2>
                     <p class="small-text"
                       style="font-family: Arial, Helvetica, sans-serif; margin: 0; font-size: 16px;">
@@ -243,189 +309,155 @@
                   </td>
                 </tr>
               </table>
+              <!-- End of RIght Side -->
             </td>
           </tr>
-          <!-- End BLue Section / 2 column -->
-
-          <!-- Start of Animal Section -->
+          <!-- End of 2column Section / 4th row -->
+          <!--Save When You Spend / 5th row  -->
           <tr>
-            <td class="animal-section" style="padding-top: 10px;">
-              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102">
+            <td>
+              <table class="stuffed-animal" width="100%" height="300" bgcolor="#CA0102" cellspacing="0" cellpadding="0"
+                border="0" style="margin-bottom: 10px;">
                 <tr>
-                  <td>
-                    <table class="animal-img-container" width="50%" cellspacing="0" cellpadding="0" border="0"
-                      align="left">
-                      <tr>
-                        <td class="animal-img" align="left" valign="top">
-                          <img src="https://www.stevenme.com/email-images/TargetAd/HeroImgNew.png" alt="Stuffed Animal" style="width:100%;">
-                        </td>
-                      </tr>
-                    </table>
-                    <table class="animal-text-section" width="50%" cellspacing="0" cellpadding="0" border="0"
-                      align="right">
-                      <tr>
-                        <td class="animal-text" style="padding-right: 10px; font-family: Arial, Helvetica, sans-serif;">
-                          <h2
-                            style="font-family: Arial, Helvetica, sans-serif; font-size: 27px; margin-bottom: 5px; font-weight: 100; color: white;">
-                            <b>Save $10</b> when you spend $50
-                          </h2>
-                          <p class="small-text"
-                            style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin-top: 5px; color: white;">
-                            on
-                            toys with Target Circle</p>
-                          <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; color: white;"><b>Save
-                              $5</b> when
-                            you spend $30 on
-                            toys with Target Circle. Excludes LEGO</p>
-                          <a href="https://www.target.com" target="_blank" style="text-decoration: none;">
+                  <td class="animalImg" align="right"
+                    style="background-image:url('https://www.stevenme.com/email-images/TargetAd/stuffedanimal.jpg');background-size: 600px 300px; background-repeat: no-repeat;">
+                    <a href="https://www.target.com" target="_blank"
+                      style="text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;">
+                      <table class="animal-table" width="38%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="animal-text" align="center"
+                            style="padding-right: 10px; font-family: Arial, Helvetica, sans-serif;">
+                            <h2
+                              style="font-family: Arial, Helvetica, sans-serif; font-size: 27px; margin-bottom: 5px; font-weight: 100;">
+                              <b>Save $10</b> when you spend $50
+                            </h2>
+                            <p class="small-text"
+                              style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin-top: 5px;">on
+                              toys with Target Circle</p>
+                            <p class="small-text" style="font-family: Arial, Helvetica, sans-serif;"><b>Save $5</b> when
+                              you spend $30 on
+                              toys with Target Circle. Excludes LEGO</p>
                             <p class="small-text smaller-text"
-                              style="display: inline-block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">
+                              style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">
                               Find Something Fun</p>
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </a>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
-          <!-- End of Animal Section -->
-          <!-- Start Floor Care -->
+          <!-- End of Save When You Spend / 5th row -->
+          <!-- Start of Floor Care Items / 6th Row -->
           <tr>
             <td>
-              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102" style="margin: 10px 0;">
+              <table class="floor-care" width="100%" bgcolor="#CA0102" cellspacing="0" cellpadding="0" border="0"
+                height="210" style="margin-bottom: 10px;">
                 <tr>
-                  <td>
-                    <table class="floor-text-section" width="50%" align="left" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td style="font-family: Arial, Helvetica, sans-serif; color: white; padding: 40px 0 0 20px;">
-                          <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin: 0 0 8px">
-                            Target Circle Week</p>
-                          <h3
-                            style="font-family: Arial, Helvetica, sans-serif; font-size: 27px; margin:0 ; font-weight: 100; font-weight: bold;">
-                            Up to 40% Off</h3>
-                          <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin: 5px 0 0;">
-                            floor care items with
-                            Target Circle</p>
-                          <a href="https://www.target.com" target="_blank" style="text-decoration: none;">
+                  <td class="floor-care-img" align="left"
+                    style="background-image: url('https://www.stevenme.com/email-images/TargetAd/floorcare.jpg'); background-size: 600px 210px;">
+                    <a href="https://www.target.com" target="_blank"
+                      style="text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;">
+                      <table class="floor-table" width="40%" cellspacing="0" cellpadding="0" border="0" style="margin-left: 20px;">
+                        <tr>
+                          <td class="floor-alignment" align="left"
+                            style="font-family: Arial, Helvetica, sans-serif; color: white; padding-top: 40px;">
+                            <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin: 0 0 8px">
+                              Target Circle Week</p>
+                            <h3
+                              style="font-family: Arial, Helvetica, sans-serif; font-size: 27px; margin:0 ; font-weight: 100; font-weight: bold;">
+                              Up to 40% Off</h3>
+                            <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin: 5px 0 0;">
+                              floor care items with
+                              Target Circle</p>
                             <p class="small-text smaller-text floor-btn"
-                              style="display: inline-block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px; width: 50%;">
+                              style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px; width: 50%;">
                               Floor Care</p>
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
-                    <table class="floor-img-container" width="50%" align="right" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td>
-                          <a href="https://www.target.com" target="_blank"><img src="https://www.stevenme.com/email-images/TargetAd/floorcareNew.png"
-                              alt="Floor care" style="width: 100%; padding-top: 20px;"></a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- End Floor Care -->
-          <!-- Books and Movies -->
-          <tr>
-            <td>
-              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102">
-                <tr>
-                  <td>
-                    <table class="books-img-container" width="50%" align="left" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td>
-                          <a href="https://www.target.com" target="_blank"><img src="https://www.stevenme.com/email-images/TargetAd/SecondVersionBooks.png"
-                              alt="books and movies" style="width: 100%; padding-top:30px"></a>
-                        </td>
-                      </tr>
-                    </table>
-                    <table class="books-text-section" width="50%" align="right" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td class="text-content" align="center" style="padding: 80px 10px 20px;" valign="middle">
-                          <h2
-                            style="font-family: Arial, Helvetica, sans-serif; margin: 0; color: white; font-size: 36px;">
-                            <b>Buy 2, <br> Get 1 Free</b>
-                          </h2>
-                          <p class="small-text"
-                            style="font-family: Arial, Helvetica, sans-serif; color: white; margin: 0;">on
-                            <b>books,
-                              movies & music</b> with target Circle
-                          </p>
-                          <a href="https://www.target.com" target="_blank" style="text-decoration: none;">
-                            <p class="small-text"
-                              style="display: inline-block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">
-                              Grow your collection</p>
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- End of Books and movies -->
-          <!-- Start Plastic Bin -->
-          <tr>
-            <td>
-              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102"
-                style="margin-top: 10px;">
-                <tr>
-                  <td>
-                    <table class="tote-text-section" align="left" width="50%" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td style="padding: 20px;">
-                          <p class="small-text"
-                            style="font-family: Arial, Helvetica, sans-serif; margin-bottom:0; color: white;">
-                            Target Circle Week
-                          </p>
-                          <h2
-                            style="font-family: Arial, Helvetica, sans-serif; margin:5px 0; font-size: 30px; color: white;">
-                            20%
-                            off</h2>
-                          <p class="small-text"
-                            style="font-family: Arial, Helvetica, sans-serif; margin:5px 0; color: white;">
-                            Brightroom <b>plastic
-                              storage bins <br>& closet organization</b> with Target Circle</p>
-                          <a href="https://www.target.com" target="_blank" style="text-decoration: none;">
-                            <p class="small-text"
-                              style="display: inline-block; font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">
-                              Storage & Organization</p>
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
-                    <table class="tote-img-container" align="right" width="50%" cellspacing="0" cellpadding="0"
-                      border="0">
-                      <tr>
-                        <td style="padding-top: 50px;">
-                          <a href="https://www.target.com" target="_blank" style="text-decoration: none;"></a><img
-                            src="https://www.stevenme.com/email-images/TargetAd/NewToteImage.png" alt="" style="width:100%">
+                          </td>
+                        </tr>
+                      </table>
 
-                        </td>
-                      </tr>
-                    </table>
+                    </a>
+                  </td>
+
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of Floor Care Items / 6th Row -->
+          <!-- Books & Movies Section Start / 7th row start-->
+          <tr>
+            <td>
+              <table class="books" width="100%" cellspacing="0" cellpadding="0" border="0" height="300"
+                bgcolor="#CB0D00" style="margin-bottom: 10px;">
+                <tr>
+                  <td class="bookImg" align="right"
+                    style="background-image: url('https://www.stevenme.com/email-images/TargetAd/booksmovies.jpg'); background-size: 600px 300px;">
+                    <a href="https://www.target.com" target="_blank" style="text-decoration: none;">
+                      <table width="39%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="text-decoration: none; padding-right: 10px;">
+                            <h2
+                              style="font-family: Arial, Helvetica, sans-serif; margin: 0; color: white; font-size: 36px;">
+                              <b>Buy 2, <br> Get 1 Free</b>
+                            </h2>
+                            <p class="small-text"
+                              style="font-family: Arial, Helvetica, sans-serif; color: white; margin: 0;">on <b>books,
+                                movies & music</b> with target Circle</p>
+                            <p class="small-text"
+                              style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px;">
+                              Grow your collection</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </a>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
-          <!-- End Plastic Bin -->
+          <!-- Books & Movies Section End / 7th row end -->
+          <!-- Start Plastic Bin Section / 8th Row Start -->
+          <tr>
+            <td>
+              <a href="https://www.target.com" target="_blank"
+                style="text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;">
+                <table class="bin" width="100%" align="center" height="210" cellspacing="0" cellpadding="0" border="0"
+                  bgcolor="#CB0D00" style="margin-bottom: 10px;">
+                  <tr>
+                    <td class="plastic-bin" align="left"
+                      style="background-image: url('https://www.stevenme.com/email-images/TargetAd/container.jpg'); background-size: 600px 210px; background-repeat: no-repeat;">
+                      <table align="left" width="48%" cellspacing="0" cellpadding="0" border="0"
+                        style="margin-left: 20px; ">
+                        <tr>
+                          <td>
+                            <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin-bottom:0;">
+                              Target Circle Week
+                            </p>
+                            <h2 style="font-family: Arial, Helvetica, sans-serif; margin:5px 0; font-size: 30px;">20%
+                              off</h2>
+                            <p class="small-text" style="font-family: Arial, Helvetica, sans-serif; margin:5px 0;">
+                              Brightroom <b>plastic
+                                storage bins <br>& closet organization</b> with Target Circle</p>
+                            <p class="small-text"
+                              style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 20px; padding: 15px 12px; color: white; border-radius: 30px; text-align: center;background-color:#AC0900; margin-bottom: 20px; width: 75%;">
+                              Storage & Organization</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </td>
+          </tr>
+          <!-- End Plastic Bin Section / 8th Row End -->
           <!-- Start of 'See Details' Section / 9th Row Start -->
           <tr>
             <td>
-              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102"
-                style="margin: 10px 0 0;">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#CA0102">
                 <tr>
                   <td align="left">
                     <a href="https://www.target.com" target="_blank"
@@ -452,7 +484,7 @@
                     <!-- links tablee -->
                     <!-- LInk 1 -->
                     <table class="footer-nav" width="12.5%" cellspacing="0" cellpadding="0" border="0"
-                      style="display: inline-block;">
+                      style="display: inline-block; text-align: center;">
                       <tr>
                         <td align="center">
                           <a href="https://www.target.com" target="_blank"
@@ -633,7 +665,7 @@
                     <table class="grid" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
                       valign="top">
                       <tr>
-                        <td class="grid-px" style="padding:0 5px 5px 0;">
+                        <td style="padding:0 5px 5px 0;">
                           <table class="grid" width="49.2%" align="left" cellspacing="0" cellpadding="0" border="0"
                             bgcolor="#f7f7f7" height="100px" valign="top" style="margin-right:5px">
                             <tr>
@@ -667,7 +699,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td class="grid-px" style="padding: 0 5px 0 0">
+                        <td style="padding: 0 5px 0 0">
                           <table class="grid" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             bgcolor="#f7f7f7" height="100px" valign="top">
                             <tr>
@@ -688,11 +720,11 @@
                     <!-- End Left Side -->
 
                     <!-- RIght side -->
-                    <table class="grid grid-right" width="50%" cellspacing="0" cellpadding="0" align="left"
-                      bgcolor="#f7f7f7"  valign="top" style="padding: 20px 0;">
+                    <table class="grid" width="50%" cellspacing="8" cellpadding="0" align="left" bgcolor="#f7f7f7"
+                      height="205px" valign="top">
                       <tr>
                         <td>
-                          <table width="90%" cellspacing="0" cellpadding="0" border="0">
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0">
                             <tr>
                               <td>
                                 <a href="https://www.target.com" target="_blank"><img style="height: 120px;"
@@ -702,8 +734,7 @@
                               <td width="50%" align="left">
                                 <p
                                   style="color:#333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin-bottom: 0;">
-                                  <b>Shop & Save with the Target App</b>
-                                </p>
+                                  <b>Shop & Save with the Target App</b></p>
                                 <p
                                   style="color:#333333; font-family: Arial, Helvetica, sans-serif; font-size: 11px; margin-top: 0;">
                                   Get all of Target in one place, wherever you are.</p>
@@ -760,12 +791,12 @@
           </tr>
           <!-- end of Target Logo / 11th row end -->
 
-
-          <!-- End Email Container -->
         </table>
+        <!-- End of Email Container -->
       </td>
     </tr>
   </table>
+  <!-- End of Email -->
 </body>
 
 </html>
